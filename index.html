@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Encoder/Decoder</title>
+    <link rel = "stylesheet" href = "index.css">
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <header>
+        <!--<p class = "heading"><u>URL ENCODER/DECODER</u></p>-->
+        <h1>URL ENCODER/DECODER</h1>
+        <hr>
+        <img src = "http://seo.meramaal.com/uploads/urlende.jpg" style="width: 800px; height: 250px;">
+    </header>
+    <div>
+        <span class="normal-text"><label for = "input" ><i>Input goes here :- </i></label></span><br>
+        <textarea rows = "15" cols="170" id = "input" placeholder="Enter the URL you wish to encode or decode" value=""></textarea>
+    </div>
+    <span>
+        <input type="button"  id = "button1-for-input" style="background-color: chartreuse;" value="Encode URL">
+        <input type="button"  id = "button2-for-input" style="background-color: chartreuse;" value="Decode URL">
+        <input type="button"  id = "button3-for-input" style="background-color: chartreuse;" value="Clear Input Results">
+    </span>
+    <p></p>
+    <div>
+        <span class="normal-text"><label for = "output" ><i>Output goes here :- </i></label></span><br>
+        <textarea disable readonly rows = "15" cols="170" id = "output" value=""></textarea>
+        <input type = "button" style="color: black; background-color: cyan;" id = "button-to-clear-output" value = "Clear Results">
+    </div>
+</body>
+</html>

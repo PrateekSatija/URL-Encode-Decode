@@ -1,0 +1,11 @@
+.heading {
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+}
+
+.normal-text {
+  font-size: 22px;
+  color: black;
+  font-weight: 900;
+}
